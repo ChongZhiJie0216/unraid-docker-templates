@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>SudhanPlayz-Discord-MusicBot-Master</Name>
+  <Description>Source: https://github.com/SudhanPlayz/Discord-MusicBot</Description>
+  <Registry>https://hub.docker.com/r/chongzhijie/sudhanplayz-discord-musicbot</Registry>
+  <Repository>chongzhijie/sudhanplayz-discord-musicbot:master</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>3000</HostPort>
+        <ContainerPort>3000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/usr/src/app/botconfig.js</HostDir>
+      <ContainerDir>/mnt/user/appdata/SudhanPlayz-Discord-MusicBot/botconfig.js</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version>01</Version>
+  <WebUI>http://[iP]:[PORT:3000]/</WebUI>
+  <Banner>https://camo.githubusercontent.com/2a6cdd6190ec7b2914984129444e2bb26c8cdf8f98df357faa6ee4c1a3c44110/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f70346c50393654697639732f6d617872657364656661756c742e6a7067</Banner>
+  <Icon>https://github.com/SudhanPlayz/Discord-MusicBot/raw/master/assets/logo.gif</Icon>
+  <ExtraParams></ExtraParams>
+</Container>

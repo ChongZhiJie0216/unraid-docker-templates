@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>Lavalink</Name>
+  <Description>Source: https://github.com/freyacodes/Lavalink</Description>
+  <Registry>https://hub.docker.com/r/chongzhijie/lavalink</Registry>
+  <Repository>chongzhijie/lavalink</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>2333</HostPort>
+        <ContainerPort>2333</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/opt/Lavalink/application.yml</HostDir>
+      <ContainerDir>/mnt/user/appdata/lavalink/application.yml</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version>01</Version>
+  <WebUI>http://[iP]:[PORT:3000]/</WebUI>
+  <Banner></Banner>
+  <Icon>https://github.com/SudhanPlayz/Discord-MusicBot/raw/master/assets/logo.gif</Icon>
+  <ExtraParams></ExtraParams>
+</Container>
