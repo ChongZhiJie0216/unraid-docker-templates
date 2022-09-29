@@ -3,22 +3,22 @@
   <Name>SudhanPlayz-Discord-MusicBot-v5</Name>
   <Repository>chongzhijie/sudhanplayz-discord-musicbot-v5:latest</Repository>
   <Registry>https://hub.docker.com/r/chongzhijie/sudhanplayz-discord-musicbot-v5</Registry>
-  <Network>bridge</Network>
-  <MyIP/>
+  <Network>br0.10</Network>
+  <MyIP>192.168.1.58</MyIP>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>false</Support>
-  <Project>https://github.com/SudhanPlayz/Discord-MusicBot/tree/v5 </Project>
+  <Support/>
+  <Project/>
   <Overview>This is Discord Music from GITHUB Open sourse&#xD;
-https://github.com/SudhanPlayz/Discord-MusicBot/tree/v5 </Overview>
+https://github.com/SudhanPlayz/Discord-MusicBot/tree/v5</Overview>
   <Category>MediaServer:Music</Category>
-  <WebUI>http://[IP]:[4200]/</WebUI>
-  <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/limetech/Unraid.net/master/Unraid.net.png</Icon>
+  <WebUI>http://[IP]:[PORT:4200]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/ChongZhiJie0216/unraid-docker-templates/master/ChongZhiJie0216/SudhanPlayz-Discord-MusicBot-v5.xml</TemplateURL>
+  <Icon>https://github.com/SudhanPlayz/Discord-MusicBot/raw/v5/assets/logo.gif</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1664465275</DateInstalled>
+  <DateInstalled>1664467978</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
