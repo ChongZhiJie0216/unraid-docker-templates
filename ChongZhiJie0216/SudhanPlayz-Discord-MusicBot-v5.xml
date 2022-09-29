@@ -23,5 +23,5 @@ https://github.com/SudhanPlayz/Discord-MusicBot/tree/v5</Overview>
   <DonateLink/>
   <Requires/>
   <Config Name="WebUI" Target="4200" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">4200</Config>
-  <Config Name="ConfigFiles" Target="/usr/src/app/config.js" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/SudhanPlayz-Discord-MusicBot-v5/config.js</Config>
+  <Config Name="ConfigFiles" Target="/usr/src/app/config.js" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"></Config>
 </Container>
