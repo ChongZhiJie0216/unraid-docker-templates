@@ -1,37 +1,30 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Lavalink</Name>
-  <Repository>chongzhijie/lavalink</Repository>
+  <Repository>chongzhijie/lavalink:latest</Repository>
   <Registry>https://hub.docker.com/r/chongzhijie/lavalink/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://hub.docker.com/r/chongzhijie/lavalink/</Support>
+  <Support/>
   <Project>https://github.com/freyacodes/Lavalink</Project>
-  <Overview> Source: https://github.com/freyacodes/Lavalink&#xD;
-(Dev)&#xD;
-&#xD;
-&#xD;
-Converted By Community Applications   Always verify this template (and values)  against the support page for the container&#xD;
-&#xD;
-https://hub.docker.com/r/chongzhijie/lavalink/</Overview>
+  <Overview>Source: https://github.com/freyacodes/Lavalink</Overview>
   <Category>MediaServer:Music</Category>
   <WebUI/>
-  <TemplateURL/>https://raw.githubusercontent.com/ChongZhiJie0216/unraid-docker-templates/master/ChongZhiJie0216/Lavalink.xml
-  <Icon/>https://serux.pro/9e83af1581.png
+  <TemplateURL/>https://raw.githubusercontent.com/ChongZhiJie0216/unraid-docker-templates/main/ChongZhiJie0216/Lavalink.xml
+  <Icon>https://serux.pro/9e83af1581.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1664469106</DateInstalled>
+  <DateInstalled>1664469986</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="Container Variable 1" Target="LANG" Default="en_US.UTF-8" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false">en_US.UTF-8</Config>
-  <Config Name="Container Variable 2" Target="LANGUAGE" Default="en_US:en" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false">en_US:en</Config>
-  <Config Name="Container Variable 3" Target="LC_ALL" Default="en_US.UTF-8" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false">en_US.UTF-8</Config>
-  <Config Name="Container Variable 4" Target="JAVA_HOME" Default="/usr/lib/jvm/zulu13-ca-amd64" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false">/usr/lib/jvm/zulu13-ca-amd64</Config>
-  <Config Name="Community Applications Conversion" Target="Community_Applications_Conversion" Default="true" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
-  <Config Name="PortOutput" Target="2333" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">2333</Config>
-  <Config Name="Application.yml" Target="/opt/Lavalink/application.yml" Default="" Mode="rw" Description="Example&#13;&#10;https://github.com/freyacodes/Lavalink/blob/master/LavalinkServer/application.yml.example" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/lavalink/application.yml</Config>
+  <Config Name="Port" Target="2333" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">2333</Config>
+  <Config Name="Application" Target="/opt/Lavalink/application.yml" Default="" Mode="rw" Description="Example:&#13;&#10;https://github.com/freyacodes/Lavalink/blob/master/LavalinkServer/application.yml.example" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/lavalink/application.yml</Config>
+  <Config Name="LANG" Target="en_US.UTF-8" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">en_US.UTF-8</Config>
+  <Config Name="LANGUAGE" Target="en_US:en" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">en_US:en</Config>
+  <Config Name="LC_ALL" Target="en_US.UTF-9" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">en_US.UTF-9</Config>
+  <Config Name="JAVA_HOME" Target="/usr/lib/jvm/zulu13-ca-amd64" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">/usr/lib/jvm/zulu13-ca-amd64</Config>
 </Container>
