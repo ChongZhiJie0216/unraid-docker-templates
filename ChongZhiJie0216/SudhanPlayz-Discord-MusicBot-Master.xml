@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>sudhanplayz-discord-musicbot</Name>
+  <Name>Sudhanplayz-Discord-Musicbot-master</Name>
   <Repository>chongzhijie/sudhanplayz-discord-musicbot:master</Repository>
   <Registry>https://hub.docker.com/r/chongzhijie/sudhanplayz-discord-musicbot/</Registry>
   <Network>bridge</Network>
@@ -25,6 +25,6 @@ https://hub.docker.com/r/chongzhijie/sudhanplayz-discord-musicbot/</Overview>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="botconfig" Target="/mnt/user/appdata/SudhanPlayz-Discord-MusicBot/botconfig.js" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/usr/src/app/botconfig.js</Config>
+  <Config Name="config" Target="/usr/src/app/botconfig.js" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/SudhanPlayz-Discord-MusicBot/botconfig.js</Config>
   <Config Name="WebUI" Target="3000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
 </Container>
