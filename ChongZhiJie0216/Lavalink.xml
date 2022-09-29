@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>lavalink</Name>
+  <Name>Lavalink</Name>
   <Repository>chongzhijie/lavalink</Repository>
   <Registry>https://hub.docker.com/r/chongzhijie/lavalink/</Registry>
   <Network>bridge</Network>
