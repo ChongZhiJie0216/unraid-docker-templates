@@ -19,7 +19,7 @@ https://hub.docker.com/r/chongzhijie/lavalink/</Overview>
   <Category>MediaServer:Music</Category>
   <WebUI/>
   <TemplateURL/>https://raw.githubusercontent.com/ChongZhiJie0216/unraid-docker-templates/master/ChongZhiJie0216/Lavalink.xml
-  <Icon/>
+  <Icon/>https://serux.pro/9e83af1581.png
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
