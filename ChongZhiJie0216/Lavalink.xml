@@ -22,7 +22,7 @@
   <DonateLink/>
   <Requires/>
   <Config Name="Port" Target="2333" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">2333</Config>
-  <Config Name="Application" Target="/opt/Lavalink/application.yml" Default="" Mode="rw" Description="Example:&#13;&#10;https://github.com/freyacodes/Lavalink/blob/master/LavalinkServer/application.yml.example" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/lavalink/application.yml</Config>
+  <Config Name="Application" Target="/opt/Lavalink/application.yml" Default="" Mode="rw" Description="Example:&#13;&#10;https://github.com/freyacodes/Lavalink/blob/master/LavalinkServer/application.yml.example" Type="Path" Display="always" Required="false" Mask="false"></Config>
   <Config Name="LANG" Target="en_US.UTF-8" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">en_US.UTF-8</Config>
   <Config Name="LANGUAGE" Target="en_US:en" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">en_US:en</Config>
   <Config Name="LC_ALL" Target="en_US.UTF-9" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">en_US.UTF-9</Config>
