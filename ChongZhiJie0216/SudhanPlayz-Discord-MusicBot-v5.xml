@@ -3,25 +3,25 @@
   <Name>SudhanPlayz-Discord-MusicBot-v5</Name>
   <Repository>chongzhijie/sudhanplayz-discord-musicbot-v5:latest</Repository>
   <Registry>https://hub.docker.com/r/chongzhijie/sudhanplayz-discord-musicbot-v5</Registry>
-  <Network>none</Network>
+  <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>false</Support>
   <Project>https://github.com/SudhanPlayz/Discord-MusicBot/tree/v5 </Project>
-  <Overview>This is Discord Music from GITHUB Open sourse &#xD;
+  <Overview>This is Discord Music from GITHUB Open sourse&#xD;
 https://github.com/SudhanPlayz/Discord-MusicBot/tree/v5 </Overview>
   <Category>MediaServer:Music</Category>
-  <WebUI>http://[IP]:[4200]/</WebUI>
+  <WebUI>http://[IP]:[PORT]/</WebUI>
   <TemplateURL/>
-  <Icon>https://github.com/SudhanPlayz/Discord-MusicBot/blob/master/assets/logo.gif</Icon>
+  <Icon>https://raw.githubusercontent.com/limetech/Unraid.net/master/Unraid.net.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1664464758</DateInstalled>
+  <DateInstalled>1664465210</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="WebUI" Target="" Default="4200" Mode="" Description="WebUI" Type="Port" Display="always" Required="false" Mask="false">4200</Config>
+  <Config Name="WebUI" Target="4200" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">4200</Config>
   <Config Name="ConfigFiles" Target="/usr/src/app/config.js" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/SudhanPlayz-Discord-MusicBot-v5/config.js</Config>
 </Container>
