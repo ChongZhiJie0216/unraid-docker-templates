@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Sudhanplayz-Discord-Musicbot-v5</Name>
-  <Repository>chongzhijie/sudhanplayz-discord-musicbot:v5</Repository>
-  <Registry>https://hub.docker.com/r/chongzhijie/sudhanplayz-discord-musicbot/</Registry>
+  <Repository>chongzhijie/sudhanplayz-discord-musicbot-v5</Repository>
+  <Registry>https://hub.docker.com/r/chongzhijie/sudhanplayz-discord-musicbot-v5</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://hub.docker.com/r/chongzhijie/sudhanplayz-discord-musicbot/</Support>
+  <Support>https://hub.docker.com/r/chongzhijie/sudhanplayz-discord-musicbot-v5</Support>
   <Project/>
-  <Overview>Source: https://github.com/SudhanPlayz/Discord-MusicBot&#xD;
+  <Overview>Source:  https://github.com/SudhanPlayz/Discord-MusicBot/tree/v5 &#xD;
 &#xD;
 Converted By Community Applications   Always verify this template (and values)  against the support page for the container&#xD;
 &#xD;
-https://hub.docker.com/r/chongzhijie/sudhanplayz-discord-musicbot/</Overview>
+https://hub.docker.com/r/chongzhijie/sudhanplayz-discord-musicbot-v5</Overview>
   <Category>Productivity:</Category>
   <WebUI>http://[IP]:[PORT:4200]</WebUI>
   <TemplateURL/>
