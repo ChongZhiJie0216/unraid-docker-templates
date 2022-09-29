@@ -12,13 +12,13 @@
   <Overview>This is Discord Music from GITHUB Open sourse&#xD;
 https://github.com/SudhanPlayz/Discord-MusicBot/tree/v5 </Overview>
   <Category>MediaServer:Music</Category>
-  <WebUI>http://[IP]:[PORT]/</WebUI>
+  <WebUI>http://[IP]:[4200]/</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/limetech/Unraid.net/master/Unraid.net.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1664465210</DateInstalled>
+  <DateInstalled>1664465275</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
