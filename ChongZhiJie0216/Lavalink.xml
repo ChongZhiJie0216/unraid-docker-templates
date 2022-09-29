@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>lavalink</Name>
+  <Name>lavalink-1</Name>
   <Repository>chongzhijie/lavalink</Repository>
   <Registry>https://hub.docker.com/r/chongzhijie/lavalink/</Registry>
   <Network>bridge</Network>
+  <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://hub.docker.com/r/chongzhijie/lavalink/</Support>
-  <Project>https://github.com/freyacodes/Lavalink</Project>
+  <Project/>
   <Overview> Source: https://github.com/freyacodes/Lavalink&#xD;
 (Dev)&#xD;
 &#xD;
@@ -15,14 +16,14 @@
 Converted By Community Applications   Always verify this template (and values)  against the support page for the container&#xD;
 &#xD;
 https://hub.docker.com/r/chongzhijie/lavalink/</Overview>
-  <Category>Other: Status:Stable</Category>
+  <Category>Productivity:</Category>
   <WebUI/>
   <TemplateURL/>
   <Icon/>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1664414198</DateInstalled>
+  <DateInstalled>1664415376</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
@@ -31,5 +32,6 @@ https://hub.docker.com/r/chongzhijie/lavalink/</Overview>
   <Config Name="Container Variable 3" Target="LC_ALL" Default="en_US.UTF-8" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false">en_US.UTF-8</Config>
   <Config Name="Container Variable 4" Target="JAVA_HOME" Default="/usr/lib/jvm/zulu13-ca-amd64" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false">/usr/lib/jvm/zulu13-ca-amd64</Config>
   <Config Name="Community Applications Conversion" Target="Community_Applications_Conversion" Default="true" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
-  <Config Name="application.yml" Target="/mnt/user/appdata/lavalink/application.yml" Default="" Mode="rw" Description="https://github.com/freyacodes/Lavalink/blob/master/LavalinkServer/application.yml.example" Type="Path" Display="always" Required="false" Mask="false">/opt/Lavalink/application.yml</Config>
-  <Config Name="Port" Target="" Default="2333" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">2333</Config>
+  <Config Name="application.yml" Target="/opt/Lavalink/application.yml" Default="" Mode="rw" Description="https://github.com/freyacodes/Lavalink/blob/master/LavalinkServer/application.yml.example" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/lavalink/application.yml</Config>
+  <Config Name="Port" Target="2333" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">2333</Config>
+</Container>
