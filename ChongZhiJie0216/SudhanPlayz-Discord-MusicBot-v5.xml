@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>sudhanplayz-discord-musicbot</Name>
+  <Name>Sudhanplayz-Discord-Musicbot-v5</Name>
   <Repository>chongzhijie/sudhanplayz-discord-musicbot:v5</Repository>
   <Registry>https://hub.docker.com/r/chongzhijie/sudhanplayz-discord-musicbot/</Registry>
   <Network>bridge</Network>
