@@ -1,32 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Container>
-  <Name>SudhanPlayz-Discord-MusicBot-Master</Name>
-  <Description>Source: https://github.com/SudhanPlayz/Discord-MusicBot</Description>
-  <Registry>https://hub.docker.com/r/chongzhijie/sudhanplayz-discord-musicbot</Registry>
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>sudhanplayz-discord-musicbot</Name>
   <Repository>chongzhijie/sudhanplayz-discord-musicbot:v5</Repository>
-  <BindTime>true</BindTime>
+  <Registry>https://hub.docker.com/r/chongzhijie/sudhanplayz-discord-musicbot/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Environment/>
-  <Networking>
-    <Mode>bridge</Mode>
-    <Publish>
-      <Port>
-        <HostPort>4200</HostPort>
-        <ContainerPort>4200</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-    </Publish>
-  </Networking>
-  <Data>
-    <Volume>
-      <HostDir>/usr/src/app/config.js</HostDir>
-      <ContainerDir>/mnt/user/appdata/SudhanPlayz-Discord-MusicBot-v5/config.js</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-  </Data>
-  <Version>01</Version>
-  <WebUI>http://[iP]:[PORT:4200]/</WebUI>
-  <Banner>https://camo.githubusercontent.com/2a6cdd6190ec7b2914984129444e2bb26c8cdf8f98df357faa6ee4c1a3c44110/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f70346c50393654697639732f6d617872657364656661756c742e6a7067</Banner>
+  <Support>https://hub.docker.com/r/chongzhijie/sudhanplayz-discord-musicbot/</Support>
+  <Project/>
+  <Overview>Source: https://github.com/SudhanPlayz/Discord-MusicBot&#xD;
+&#xD;
+Converted By Community Applications   Always verify this template (and values)  against the support page for the container&#xD;
+&#xD;
+https://hub.docker.com/r/chongzhijie/sudhanplayz-discord-musicbot/</Overview>
+  <Category>Productivity:</Category>
+  <WebUI>http://[IP]:[PORT:4200]</WebUI>
+  <TemplateURL/>
   <Icon>https://github.com/SudhanPlayz/Discord-MusicBot/raw/master/assets/logo.gif</Icon>
-  <ExtraParams></ExtraParams>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1664414895</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="config" Target="/usr/src/app/config.js" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/SudhanPlayz-Discord-MusicBot-v5/config.js</Config>
+  <Config Name="WebUI" Target="4200" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">4200</Config>
 </Container>
