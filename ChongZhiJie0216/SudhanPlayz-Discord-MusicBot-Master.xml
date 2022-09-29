@@ -3,25 +3,25 @@
   <Name>SudhanPlayz-Discord-MusicBot-Master</Name>
   <Repository>chongzhijie/sudhanplayz-discord-musicbot-master:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/chongzhijie/sudhanplayz-discord-musicbot-master</Registry>
-  <Network>bringe</Network>
-  <MyIP></MyIP>
+  <Network>bridge</Network>
+  <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support/>
-  <Project/>
+  <Project>https://github.com/SudhanPlayz/Discord-MusicBot/tree/master</Project>
   <Overview>This is Discord Music from GITHUB Open sourse&#xD;
 https://github.com/SudhanPlayz/Discord-MusicBot/tree/master</Overview>
   <Category>MediaServer:Music</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/ChongZhiJie0216/unraid-docker-templates/master/ChongZhiJie0216/SudhanPlayz-Discord-MusicBot-Master.xml</TemplateURL>
+  <TemplateURL/>
   <Icon>https://github.com/SudhanPlayz/Discord-MusicBot/raw/v5/assets/logo.gif</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1664467978</DateInstalled>
+  <DateInstalled>1664470568</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
   <Config Name="WebUI" Target="3000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
-  <Config Name="ConfigFiles" Target="/usr/src/app/botconfig.js" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/SudhanPlayz-Discord-MusicBot/botconfig.js</Config>
+  <Config Name="BotConfig" Target="/usr/src/app/botconfig.js" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/SudhanPlayz-Discord-MusicBot/botconfig.js</Config>
 </Container>
