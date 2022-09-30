@@ -10,7 +10,15 @@
   <Support/>
   <Project>https://github.com/freyacodes/Lavalink</Project>
   <Overview>Source: https://github.com/freyacodes/Lavalink
-  Before you use pleace create folder names "Lavalink" and upload application.yml to folder and star deploy
+  
+  Before you Deploy please create folder Names
+    
+  "Lavalink" 
+   
+  /mnt/user/appdata/Lavalink/application.yml
+ 
+  and upload application.yml to folder
+    
   </Overview>
   <Category>MediaServer:Music</Category>
   <WebUI/>
