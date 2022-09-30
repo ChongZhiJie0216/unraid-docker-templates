@@ -10,7 +10,12 @@
   <Support/>
   <Project>https://github.com/SudhanPlayz/Discord-MusicBot/tree/master</Project>
   <Overview>This is Discord Music from GITHUB Open sourse&#xD;
-https://github.com/SudhanPlayz/Discord-MusicBot/tree/master</Overview>
+https://github.com/SudhanPlayz/Discord-MusicBot/tree/master
+  Before you Deploy please create folder Names 
+  "SudhanPlayz-Discord-MusicBot-Master" at 
+  /mnt/user/appdata/SudhanPlayz-Discord-MusicBot-Master/botconfig.js 
+  and upload botconfig.js in to folder
+  </Overview>
   <Category>MediaServer:Music</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <TemplateURL/>
@@ -23,5 +28,5 @@ https://github.com/SudhanPlayz/Discord-MusicBot/tree/master</Overview>
   <DonateLink/>
   <Requires/>
   <Config Name="WebUI" Target="3000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
-  <Config Name="BotConfig" Target="/usr/src/app/botconfig.js" Default="" Mode="ro" Description="" Type="Path" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="BotConfig" Target="/usr/src/app/botconfig.js" Default="" Mode="ro" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/SudhanPlayz-Discord-MusicBot-Master/botconfig.js</Config>
 </Container>
