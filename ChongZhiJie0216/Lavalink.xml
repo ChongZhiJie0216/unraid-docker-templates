@@ -23,10 +23,11 @@
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="Port" Target="2333" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">2333</Config>
-  <Config Name="Application" Target="/opt/Lavalink/application.yml" Default="" Mode="rw" Description="Example:&#13;&#10;https://github.com/freyacodes/Lavalink/blob/master/LavalinkServer/application.yml.example" Type="Path" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="LANG" Target="en_US.UTF-8" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">en_US.UTF-8</Config>
-  <Config Name="LANGUAGE" Target="en_US:en" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">en_US:en</Config>
-  <Config Name="LC_ALL" Target="en_US.UTF-9" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">en_US.UTF-9</Config>
-  <Config Name="JAVA_HOME" Target="/usr/lib/jvm/zulu13-ca-amd64" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">/usr/lib/jvm/zulu13-ca-amd64</Config>
+  <Config Name="Port" Target="2333" Default="2333" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">2333</Config>
+  <Config Name="JAVA_HOME" Target="JAVA_HOME" Default="/opt/java/openjdk" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">/opt/java/openjdk</Config>
+  <Config Name="LANG" Target="LANG" Default="en_US.UTF-8" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">en_US.UTF-8</Config>
+  <Config Name="LANGUAGE" Target="LANGUAGE" Default="en_US:en" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">en_US:en</Config>
+  <Config Name="LC_ALL" Target="LC_ALL" Default="en_US.UTF-8" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">en_US.UTF-8</Config>
+  <Config Name="JAVA_VERSION" Target="JAVA_VERSION" Default="jdk-18.0.2.1+1" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">jdk-18.0.2.1+1</Config>
+  <Config Name="Appication.yml" Target="/opt/Lavalink/application.yml" Default="" Mode="rw" Description="Example:https://github.com/freyacodes/Lavalink/blob/master/LavalinkServer/application.yml.example" Type="Path" Display="always" Required="false" Mask="false"/>
 </Container>
