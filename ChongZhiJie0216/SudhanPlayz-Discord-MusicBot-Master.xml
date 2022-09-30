@@ -10,11 +10,15 @@
   <Support/>
   <Project>https://github.com/SudhanPlayz/Discord-MusicBot/tree/master</Project>
   <Overview>This is Discord Music from GITHUB Open sourse&#xD;
-https://github.com/SudhanPlayz/Discord-MusicBot/tree/master
+  https://github.com/SudhanPlayz/Discord-MusicBot/tree/master
+  
   Before you Deploy please create folder Names 
-  "SudhanPlayz-Discord-MusicBot-Master" at 
+  
+  "SudhanPlayz-Discord-MusicBot-Master" 
+  at
   /mnt/user/appdata/SudhanPlayz-Discord-MusicBot-Master/botconfig.js 
-  and upload botconfig.js in to folder
+  
+  and upload botconfig.js to folder
   </Overview>
   <Category>MediaServer:Music</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
