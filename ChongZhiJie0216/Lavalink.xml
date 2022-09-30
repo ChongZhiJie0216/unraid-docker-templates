@@ -9,7 +9,9 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://github.com/freyacodes/Lavalink</Project>
-  <Overview>Source: https://github.com/freyacodes/Lavalink</Overview>
+  <Overview>Source: https://github.com/freyacodes/Lavalink
+  Before you use pleace create folder names "Lavalink" and upload application.yml to folder and star deploy
+  </Overview>
   <Category>MediaServer:Music</Category>
   <WebUI/>
   <TemplateURL/>https://raw.githubusercontent.com/ChongZhiJie0216/unraid-docker-templates/main/ChongZhiJie0216/Lavalink.xml
