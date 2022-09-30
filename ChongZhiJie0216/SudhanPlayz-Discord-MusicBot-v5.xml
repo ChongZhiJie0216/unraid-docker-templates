@@ -10,7 +10,12 @@
   <Support/>
   <Project/>
   <Overview>This is Discord Music from GITHUB Open sourse&#xD;
-https://github.com/SudhanPlayz/Discord-MusicBot/tree/v5</Overview>
+https://github.com/SudhanPlayz/Discord-MusicBot/tree/v5
+  Before you Deploy please create folder Names 
+  "SudhanPlayz-Discord-MusicBot-v5" at 
+  /mnt/user/appdata/SudhanPlayz-Discord-MusicBot-v5/config.js
+  and upload config.js in to folder
+  </Overview>
   <Category>MediaServer:Music</Category>
   <WebUI>http://[IP]:[PORT:4200]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/ChongZhiJie0216/unraid-docker-templates/master/ChongZhiJie0216/SudhanPlayz-Discord-MusicBot-v5.xml</TemplateURL>
@@ -23,5 +28,5 @@ https://github.com/SudhanPlayz/Discord-MusicBot/tree/v5</Overview>
   <DonateLink/>
   <Requires/>
   <Config Name="WebUI" Target="4200" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">4200</Config>
-  <Config Name="ConfigFiles" Target="/usr/src/app/config.js" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="ConfigFiles" Target="/usr/src/app/config.js" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/SudhanPlayz-Discord-MusicBot-v5/config.js</Config>
 </Container>
