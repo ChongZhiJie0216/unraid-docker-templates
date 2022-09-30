@@ -30,5 +30,5 @@
   <DonateLink/>
   <Requires/>
   <Config Name="WebUI" Target="3000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
-  <Config Name="BotConfig" Target="/usr/src/app/botconfig.js" Default="" Mode="ro" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/SudhanPlayz-Discord-MusicBot-Master/botconfig.js</Config>
+  <Config Name="BotConfig" Target="/usr/src/app/botconfig.js" Default="" Mode="ro" Description="Example:https://github.com/SudhanPlayz/Discord-MusicBot/blob/master/botconfig.js" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/SudhanPlayz-Discord-MusicBot-Master/botconfig.js</Config>
 </Container>
