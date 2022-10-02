@@ -14,7 +14,7 @@
   </Overview>
   <Category>Cloud: Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:80]</WebUI>
-  <TemplateURL/>https://raw.githubusercontent.com/ChongZhiJie0216/unraid-docker-templates/main/ChongZhiJie0216/AllTube-Download(yt-dlp).xml
+  <TemplateURL>https://raw.githubusercontent.com/ChongZhiJie0216/unraid-docker-templates/main/ChongZhiJie0216/AllTube-Download(yt-dlp).xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/SmartPhoneLover/unraid-docker-templates/main/templates/icons/alltube-download.png</Icon>
   <ExtraParams/>
   <PostArgs/>
