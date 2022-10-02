@@ -7,14 +7,14 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/119964-support-smartphonelover-alltube-download/</Support>
+  <Support></Support>
   <Project>https://github.com/Rudloff/alltube</Project>
   <Overview>DESCRIPTION&#xD;
   HTML GUI for yt-dlp.&#xD;
 </Overview>
   <Category>Cloud: Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:80]</WebUI>
-  <TemplateURL/>
+  <TemplateURL/>https://raw.githubusercontent.com/ChongZhiJie0216/unraid-docker-templates/main/ChongZhiJie0216/AllTube-Download(yt-dlp).xml
   <Icon>https://raw.githubusercontent.com/SmartPhoneLover/unraid-docker-templates/main/templates/icons/alltube-download.png</Icon>
   <ExtraParams/>
   <PostArgs/>
