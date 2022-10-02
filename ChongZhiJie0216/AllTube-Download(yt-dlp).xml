@@ -11,7 +11,7 @@
   <Project>https://github.com/Rudloff/alltube</Project>
   <Overview>DESCRIPTION&#xD;
   HTML GUI for yt-dlp.&#xD;
-</Overview>
+  </Overview>
   <Category>Cloud: Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:80]</WebUI>
   <TemplateURL/>https://raw.githubusercontent.com/ChongZhiJie0216/unraid-docker-templates/main/ChongZhiJie0216/AllTube-Download(yt-dlp).xml
