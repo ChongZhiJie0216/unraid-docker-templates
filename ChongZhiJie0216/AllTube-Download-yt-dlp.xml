@@ -10,7 +10,7 @@
   <Support/>
   <Project>https://github.com/Rudloff/alltube</Project>
   <Overview>DESCRIPTION&#xD;
-HTML GUI for youtube-dl.&#xD;
+HTML GUI for yt-dlp ver.&#xD;
 &#xD;
 NOTES&#xD;
 &#x2022; Run the following cmds before building the container: 'mkdir -m755 /mnt/user/appdata/alltube-download' and 'curl https://raw.githubusercontent.com/SmartPhoneLover/unraid-docker-templates/main/templates/dependencies/alltube-download/config.yml --output /mnt/user/appdata/alltube-download/config.yml'.&#xD;
