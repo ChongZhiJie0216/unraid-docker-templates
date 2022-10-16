@@ -3,7 +3,7 @@
   <Name>SudhanPlayz-Discord-MusicBot-v5</Name>
   <Repository>chongzhijie/sudhanplayz-discord-musicbot-v5:latest</Repository>
   <Registry>https://hub.docker.com/r/chongzhijie/sudhanplayz-discord-musicbot-v5</Registry>
-  <Network>bringe</Network>
+  <Network>bridge</Network>
   <MyIP></MyIP>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
