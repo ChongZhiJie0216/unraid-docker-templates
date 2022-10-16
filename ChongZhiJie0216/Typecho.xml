@@ -3,7 +3,7 @@
   <Name>Typecho</Name>
   <Repository>80x86/typecho</Repository>
   <Registry>https://hub.docker.com/r/80x86/typecho/</Registry>
-  <Network>bringe</Network>
+  <Network>bridge</Network>
   <MyIP></MyIP>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
