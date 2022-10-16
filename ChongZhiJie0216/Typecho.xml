@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Typecho</Name>
+  <Repository>joyqi/typecho:nightly-php8.0-fpm</Repository>
+  <Registry>https://hub.docker.com/r/joyqi/typecho/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/joyqi/typecho/</Support>
+  <Project>https://github.com/typecho/Dockerfile</Project>
+  <Overview>Typecho Official Image&#xD;
+&#xD;
+Converted By Community Applications   Always verify this template (and values)  against the support page for the container&#xD;
+&#xD;
+https://hub.docker.com/r/joyqi/typecho/</Overview>
+  <Category>Productivity:</Category>
+  <WebUI>http://[IP]:[PORT:9000]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://avatars.githubusercontent.com/u/2030842?s=200&amp;amp;v=4</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1665902052</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Port" Target="9000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">9000</Config>
+  <Config Name="TIMEZONE" Target="TIMEZONE" Default="UTC" Mode="" Description="default: UTC&#13;&#10;Server timezone, eg: Asia/Shanghai" Type="Variable" Display="always" Required="false" Mask="false">UTC</Config>
+  <Config Name="MEMORY_LIMIT" Target="MEMORY_LIMIT" Default="1024M" Mode="" Description="PHP memory limit, eg: 100M" Type="Variable" Display="always" Required="false" Mask="false">1024M</Config>
+  <Config Name="TYPECHO_INSTALL" Target="TYPECHO_INSTALL" Default="0" Mode="" Description="default: 0&#13;&#10;Set to 1 if you want to run installation script automatically." Type="Variable" Display="always" Required="false" Mask="false">0</Config>
+  <Config Name="TYPECHO_DB_ADAPTER" Target="TYPECHO_DB_ADAPTER" Default="Pdo_Mysql" Mode="" Description="default: Pdo_Mysql&#13;&#10;&#13;&#10;Database driver for typecho, could be: Pdo_Mysql, Pdo_SQLite, Pdo_Pgsql, Mysqli, SQLite, Pgsql." Type="Variable" Display="always" Required="false" Mask="false">Pdo_Mysql</Config>
+  <Config Name="TYPECHO_DB_HOST" Target="TYPECHO_DB_HOST" Default="localhost" Mode="" Description="default: localhost&#13;&#10;&#13;&#10;Database server host, only available for mysql and pgsql drivers.&#13;&#10;" Type="Variable" Display="always" Required="false" Mask="false">localhost</Config>
+  <Config Name="TYPECHO_DB_PORT" Target="TYPECHO_DB_PORT" Default="3306" Mode="" Description="default: 3306(for mysql) or 5432(for pgsql)&#13;&#10;Database server port, only available for mysql and pgsql drivers.&#13;&#10;" Type="Variable" Display="always" Required="false" Mask="false">3306</Config>
+  <Config Name="TYPECHO_DB_USER" Target="TYPECHO_DB_USER" Default="" Mode="" Description="Database username, only available for mysql and pgsql drivers.&#13;&#10;" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="TYPECHO_DB_PASSWORD" Target="TYPECHO_DB_PASSWORD" Default="" Mode="" Description="Database password, only available for mysql and pgsql drivers." Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="TYPECHO_DB_FILE" Target="TYPECHO_DB_FILE" Default="" Mode="" Description="Database file storage path, only available for sqlite driver.&#13;&#10;&#13;&#10;" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="TYPECHO_DB_DATABASE" Target="TYPECHO_DB_DATABASE" Default="" Mode="" Description="Database name of typecho, only available for mysql and pgsql drivers." Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="TYPECHO_DB_PREFIX" Target="TYPECHO_DB_PREFIX" Default="typecho_" Mode="" Description="default: typecho_&#13;&#10;&#13;&#10;The prefix of all tables.&#13;&#10;&#13;&#10;" Type="Variable" Display="always" Required="false" Mask="false">typecho_</Config>
+  <Config Name="TYPECHO_DB_ENGINE" Target="TYPECHO_DB_ENGINE" Default="InnoDB" Mode="" Description="Mysql database engine, only available for mysql driver.&#13;&#10;&#13;&#10;" Type="Variable" Display="always" Required="false" Mask="false">InnoDB</Config>
+  <Config Name="TYPECHO_DB_CHARSET" Target="TYPECHO_DB_CHARSET" Default="utf8" Mode="" Description="default: utf8(for pgsql) or utf8mb4(for mysql)&#13;&#10;&#13;&#10;Database charset, only available for mysql and pgsql drivers." Type="Variable" Display="always" Required="false" Mask="false">utf8</Config>
+  <Config Name="TYPECHO_DB_NEXT" Target="TYPECHO_DB_NEXT" Default="none" Mode="" Description="The action to perform when there are already having some application tables in database.&#13;&#10;&#13;&#10;none: Do nothing, just exit.&#13;&#10;keep: Keep these tables, and skip the init step.&#13;&#10;force: Delete these tables, and init data again." Type="Variable" Display="always" Required="false" Mask="false">none</Config>
+  <Config Name="TYPECHO_SITE_URL" Target="TYPECHO_SITE_URL" Default="" Mode="" Description="Your website url, for example: https://your-domain.com&#13;&#10;" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="TYPECHO_USER_NAME" Target="TYPECHO_USER_NAME" Default="" Mode="" Description="The admin username to create.&#13;&#10;&#13;&#10;" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="TYPECHO_USER_PASSWORD" Target="TYPECHO_USER_PASSWORD" Default="" Mode="" Description="The admin password to create.&#13;&#10;&#13;&#10;" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="TYPECHO_USER_MAIL" Target="TYPECHO_USER_MAIL" Default="admin@localhost.local" Mode="" Description="default: admin@localhost.local&#13;&#10;&#13;&#10;The email address of admin to create." Type="Variable" Display="always" Required="false" Mask="false">admin@localhost.local</Config>
+  <Config Name="Data" Target="/app/usr" Default="" Mode="rw" Description="Volume" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/Typecho</Config>
+</Container>
