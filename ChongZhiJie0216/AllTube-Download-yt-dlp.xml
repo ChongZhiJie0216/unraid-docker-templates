@@ -29,5 +29,5 @@ NOTES&#xD;
   <DonateLink>https://github.com/SmartPhoneLover/unraid-docker-templates/blob/main/DONATION.md</DonateLink>
   <Requires/>
   <Config Name="WebUI" Target="80" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">80</Config>
-  <Config Name="Storage (config file)" Target="/var/www/html/config/config.yml" Default="" Mode="ro" Description="This is the location for the configuration file." Type="Path" Display="advanced" Required="false" Mask="false">/mnt/user/appdata/alltube-download/config.yml</Config>
+  <Config Name="Storage (config file)" Target="/var/www/html/config/config.yml" Default="" Mode="ro" Description="This is the location for the configuration file.Example Config File:https://github.com/ChongZhiJie0216/unraid-docker-templates/blob/main/Example%20of%20Docker%20Container/AllTube-Download-yt-dlp.yml" Type="Path" Display="advanced" Required="false" Mask="false">/mnt/user/appdata/alltube-download/config.yml</Config>
 </Container>
