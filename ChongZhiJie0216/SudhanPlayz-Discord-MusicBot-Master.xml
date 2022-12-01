@@ -19,7 +19,7 @@
   and upload botconfig.js to folder
   </Overview>
   <Category>MediaServer:Music</Category>
-  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <WebUI>http://[IP]:[PORT:4200]</WebUI>
   <TemplateURL/>https://raw.githubusercontent.com/ChongZhiJie0216/unraid-docker-templates/main/ChongZhiJie0216/SudhanPlayz-Discord-MusicBot-Master.xml
   <Icon>https://github.com/SudhanPlayz/Discord-MusicBot/raw/v5/assets/logo.gif</Icon>
   <ExtraParams/>
