@@ -1,0 +1,8 @@
+Lavalink:
+    image: fredboat/lavalink:e892afe
+    container_name: Lavalink
+    volumes:
+      - ./Lavalink/application.yml:/opt/Lavalink/application.yml:ro
+    ports:
+      - 2333:2333
+    restart: unless-stopped

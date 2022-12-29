@@ -1,0 +1,12 @@
+Sudhanplayz-Discord-Musicbot-v5:
+    image: chongzhijie/sudhanplayz-discord-musicbot-v5:latest
+    container_name: Sudhanplayz-Discord-Musicbot-v5
+    environment:
+      #ip=your lavalink ip default:lavalink.oops.wtf
+      - ip=lavalink
+      #port=your lavalink port default:2000
+      - port=2333
+    volumes:
+      - ./Sudhanplayz-Discord-Musicbot-v5/config.js:/usr/src/app/config.js:ro
+    restart: unless-stopped
+  
