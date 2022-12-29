@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>AllTube-Download-yt-dlp</Name>
-  <Repository>kelvinchin12070811/alltube:3.0.3</Repository>
+  <Repository>chongzhijie/alltubedownload-yt-dlp:latest</Repository>
   <Registry>https://hub.docker.com/r/kelvinchin12070811/alltube</Registry>
   <Network>bridge</Network>
   <MyIP></MyIP>
