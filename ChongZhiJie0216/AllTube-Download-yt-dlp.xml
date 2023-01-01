@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>AllTube-Download-yt-dlp</Name>
   <Repository>chongzhijie/alltubedownload-yt-dlp:latest</Repository>
-  <Registry>https://hub.docker.com/r/kelvinchin12070811/alltube</Registry>
+  <Registry>https://hub.docker.com/repository/docker/chongzhijie/alltubedownload-yt-dlp</Registry>
   <Network>bridge</Network>
   <MyIP></MyIP>
   <Shell>sh</Shell>
