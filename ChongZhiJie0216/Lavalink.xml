@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Lavalink</Name>
-  <Repository>fredboat/lavalink:e892afe</Repository>
+  <Repository>fredboat/lavalink:latest</Repository>
   <Registry>https://hub.docker.com/r/fredboat/lavalink</Registry>
   <Network>bridge</Network>
   <MyIP/>
